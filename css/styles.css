@@ -54,7 +54,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, figcaption, figure, contact, header, hgroup, main, nav, section {
   display: block;
 }
 
@@ -465,12 +465,12 @@ mark,
   font-size: 1.25rem;
 }
 
-.blockquote-footer {
+.blockquote-contact {
   display: block;
   font-size: 80%;
   color: #6c757d;
 }
-.blockquote-footer::before {
+.blockquote-contact::before {
   content: "— ";
 }
 
@@ -4343,7 +4343,7 @@ input[type=button].btn-block {
   border-bottom-left-radius: 0.375rem;
 }
 .card > .card-header + .list-group,
-.card > .list-group + .card-footer {
+.card > .list-group + .card-contact {
   border-top: 0;
 }
 
@@ -4383,12 +4383,12 @@ input[type=button].btn-block {
   border-radius: 0.375rem 0.375rem 0 0;
 }
 
-.card-footer {
+.card-contact {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 0.125rem solid rgba(0, 0, 0, 0.125);
 }
-.card-footer:last-child {
+.card-contact:last-child {
   border-radius: 0 0 0.375rem 0.375rem;
 }
 
@@ -4476,7 +4476,7 @@ input[type=button].btn-block {
     border-top-right-radius: 0;
   }
   .card-group > .card:not(:last-child) .card-img-bottom,
-.card-group > .card:not(:last-child) .card-footer {
+.card-group > .card:not(:last-child) .card-contact {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:not(:first-child) {
@@ -4488,7 +4488,7 @@ input[type=button].btn-block {
     border-top-left-radius: 0;
   }
   .card-group > .card:not(:first-child) .card-img-bottom,
-.card-group > .card:not(:first-child) .card-footer {
+.card-group > .card:not(:first-child) .card-contact {
     border-bottom-left-radius: 0;
   }
 }
@@ -5413,7 +5413,7 @@ a.close.disabled {
   overflow: hidden;
 }
 .modal-dialog-scrollable .modal-header,
-.modal-dialog-scrollable .modal-footer {
+.modal-dialog-scrollable .modal-contact {
   flex-shrink: 0;
 }
 .modal-dialog-scrollable .modal-body {
@@ -5499,7 +5499,7 @@ a.close.disabled {
   padding: 4rem 1rem;
 }
 
-.modal-footer {
+.modal-contact {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -5509,7 +5509,7 @@ a.close.disabled {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
-.modal-footer > * {
+.modal-contact > * {
   margin: 0.25rem;
 }
 
@@ -10228,7 +10228,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #e9ecef;
 }
 
-.footer {
+.contact {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #2c3e50;
