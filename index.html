@@ -102,7 +102,30 @@
                             <img class="img-fluid" src="assets/img/portfolio/PointerController.png" alt="" />
                         </div>
                     </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioHiktool">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Hikvision.png" alt="" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioRaspCounter">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/TrafficMeteringSystem.png" alt="" />
+                        </div>
+                    </div>
+
+
                 </div>
+
+
+
 
             </div>
         </section>
@@ -235,10 +258,91 @@
                 </div>
             </div>
         </div>
-
-
-
-
+        <!---->
+        <div class="portfolio-modal modal fade" id="portfolioHiktool" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">
+                                        <a href="https://github.com/fnando1995/hiktool">
+                                            HikTools (hikvision SDK AUX with python)
+                                        </a>
+                                    </h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fab fa-steam-symbol"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Hikvision.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        Simple project to backup functions in python to control some aspects of Hikvision Devices
+                                        using their SDK in C.
+                                        <br> </br>
+                                        This repo was used to create a simple system which validates all the cameras to be working
+                                        as expected (download a video or image to assert it); and also reports the ones that have
+                                        problems. This can be added some other functionalities like comparing the device time vs the
+                                        real time and report it or even change it in real time.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="portfolio-modal modal fade" id="portfolioRaspCounter" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">
+                                        <a href="https://github.com/fnando1995/external_people_counter_base_showcase_intel">
+                                            Traffic Metering System using Raspberry + VPU
+                                        </a>
+                                    </h2>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fab fa-steam-symbol"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/TrafficMeteringSystem.png" alt="" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">
+                                        Using the potence for inference of the Intel's VPU (NCS2) and it's software from intel (openvino)
+                                        Here I create a simple traffic metering system.
+                                        <br> </br>
+                                        This repo was used for a show case for intel's Edge AI for developer contest. It was minimized,
+                                        the project itself can grow to be a self contained system to count persons in any place where
+                                        electricity can be reached (or even use a battery with a solar charging system).
+                                        <br> </br>
+                                        The system consist of a network detecting people, a tracking algorithm to follow them over the scene
+                                        and store the regions where they go (creating a path) for later analysis in their behaviour in the scene.
+                                        Can be used to check exterior potential of traffic for new store places (or even old stores).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
