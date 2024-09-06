@@ -49,14 +49,13 @@ social:
   # - title: bitbucket
   #   url: http://bitbucket.org/jekyll
   - title: github
+    logo: fa-brands fa-fw fa-github
     url: http://github.com/fnando1995
-
-mail:
   - title: email
+    logo: fa-regular fa-envelope
     url: https://mailto:fnando1995@gmail.com
-
-cv:
   - title: curriculum
+    logo: fa-regular fa-address-book
     url: https://flowcv.com/resume/wckibrwdn6
 
 # Postal address (add as many lines as necessary)
