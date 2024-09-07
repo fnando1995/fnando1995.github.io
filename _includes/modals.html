@@ -14,11 +14,15 @@
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
-            <hr class="star-primary">
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-            {% if post.description %}
-            <p>{{ post.description }}</p>
+            <!-- <hr class="star-primary"> -->
+            {% if post.description-title %}
+            <h3>{{post.description-title}}</h3>
             {% endif %}
+            {% if post.description %}
+
+            <p style="text-align: justify;">{{ post.description }}</p>
+            {% endif %}
+            <div>&nbsp;</div>
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -36,6 +40,14 @@
               </li>
               {% endif %}
             </ul>
+            {% if post.img %}
+              {% for img in post.img %}
+                {% if img.description %}
+                  <h5>{{ img.description }}</h5>
+                {% endif %}
+                <img src="img/portfolio/{{ img.image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+              {% endfor %}
+            {% endif %}
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>

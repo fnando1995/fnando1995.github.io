@@ -1,0 +1,21 @@
+---
+title: client Traffic Metering
+description-title: Reporting Client Traffic Metrics Seamlessly
+layout: default
+modal-id: 3
+date: 2024-02-01
+img_post: ctm/count-post.jpg
+img: 
+
+    - image: ctm/queue.png
+      description: Real-time detection and management of crowd levels to ensure safety and optimal flow.
+    - image: ctm/heatmap.png
+      description: Visualizing high-traffic areas and customer movement patterns for optimized store layouts.
+    - image: ctm/heatmap-img.png   
+alt: image-alt
+project-date: February 2023
+client: TIA 
+category: Artificial Vision Automation and Reporting
+description:
+    successfully integrated innovative solutions that deliver comprehensive client traffic insights, helping businesses enhance their operational efficiency. These projects empower retailers and commercial spaces to make data-driven decisions by leveraging advanced analytics and AI-powered tools. All projects were deployed using DevOps metodologies, in a single server in the edge (store) to minimize bandwhich requirements.   
+---
