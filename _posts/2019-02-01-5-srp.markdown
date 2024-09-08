@@ -1,0 +1,17 @@
+---
+title: POS Recomendation System
+description-title: Recomending products in the point-of-sale based on the cart
+layout: default
+modal-id: 5
+date: 2023-12-01
+img_post: srp/srp.jpg
+img:              
+    # - image: lucia/lucia.png
+    #   description: 3D design renderings of LUCIA and its charging station.         
+alt: image-alt
+project-date: December 2023
+client: TIA 
+category: Client Satisfaction
+description:
+  Product Recommendation System for Point-of-Sale (POS) that enhances customer experience by providing personalized product suggestions based on the items in their cart. This AI-driven solution analyzes shopping patterns in real-time to offer targeted product recommendations directly at the checkout, increasing upsell opportunities and boosting revenue. Seamlessly integrated into POS systems, it helps retailers maximize sales while delivering tailored, relevant suggestions to customers, ensuring a more engaging and efficient checkout process.
+---

@@ -1,0 +1,20 @@
+---
+title: Self-Checkout Fruits and Vegetables
+description-title: Helping clients to select products faster and easier
+layout: default
+modal-id: 4
+date: 2024-04-01
+img_post: selfcheckout/checkout.png
+img: 
+    # - image: lucia/lucia.png
+    #   description: 3D design renderings of LUCIA and its charging station.                       
+alt: image-alt
+project-date: April 2024
+client: TIA 
+category: Client Satisfaction
+description:
+     I successfully deployed an advanced Fruits & Vegetables Classifier, originally developed by an AI lab, into production using FastAPI and MLOps techniques. With over 90% accuracy, this AI model enhances the customer experience by enabling faster and more efficient product selection. The system automatically identifies products through real-time image classification, presenting users with a dynamic screen displaying possible matches, which streamlines the selection process. This solution not only improves checkout speed but also reduces human error, offering a seamless and intuitive interaction for customers in retail environments.
+
+    The integration of MLOps ensures continuous monitoring, scalability, and performance optimization, making the solution robust and future-proof for high-traffic environments.
+   
+---

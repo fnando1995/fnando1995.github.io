@@ -1,0 +1,22 @@
+---
+title: Obsolete Prices Detector
+description-title: Reducing Time Consuming Activies
+layout: default
+modal-id: 7
+date: 2022-07-01
+img_post: tickets/tickets.png
+img: 
+    - image: tickets/detection.png
+      description: Process of personalized detection of price tag labels.
+    - image: tickets/pipeline.png   
+    - image: tickets/reporte-blur.png
+      description: A snapshot of the reporting platform, showcasing alerts for pricing discrepancies and obsolete items.
+    - image: tickets/ticket-blur.png   
+      description: A close-up view of a real alert, demonstrating the system's accuracy and immediacy in addressing issues.                       
+alt: image-alt
+project-date: July 2022
+client: TIA 
+category: AI Pipeline Developement
+description:
+    I developed and deployed an AI-driven solution for detecting and reading price tag labels directly from retail shelves using Convolutional Neural Networks (CNNs). This cutting-edge system accurately identifies and extracts pricing information from product labels, streamlining inventory audits and ensuring price accuracy in real-time. By automating the detection process with advanced AI technology, the solution reduces manual labor, minimizes human error, and enhances operational efficiency in retail environments. This innovative approach empowers retailers to maintain accurate pricing and optimize shelf management, ultimately improving the overall customer shopping experience.
+---

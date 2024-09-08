@@ -1,0 +1,21 @@
+<!-- About Section -->
+<section class="success" id="publications">
+  <div class="container">
+    <div class="row">    
+      <div class="col-lg-12 text-center">
+        <h2>Publications</h2>
+      </div>
+      <div>&nbsp;</div>
+      <ul>
+        {% for pub in site.publications %}
+        <li>
+          <a href="{{ pub.link }}" >
+            <p style="text-align: justify;">{{ pub.name }}</p>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    
+  </div>
+</section>

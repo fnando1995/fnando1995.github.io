@@ -79,3 +79,9 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+publications:
+  - name: Towards a Robust Solution for the Supermarket Shelf Audit Problem
+    link: https://www.scitepress.org/ProceedingsDetails.aspx?ID=6k/iIcfNVBM=&t=1
+  - name: Obsolete Price Tags in Shelves
+    link: https://link.springer.com/chapter/10.1007/978-3-031-49018-7_19

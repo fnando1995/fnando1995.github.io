@@ -1,19 +1,18 @@
 ---
-title: client Traffic Metering
+title: Client Traffic Metering
 description-title: Reporting Client Traffic Metrics Seamlessly
 layout: default
 modal-id: 3
 date: 2024-02-01
-img_post: ctm/count-post.jpg
+img_post: ctm/count-post.png
 img: 
-
     - image: ctm/queue.png
       description: Real-time detection and management of crowd levels to ensure safety and optimal flow.
     - image: ctm/heatmap.png
       description: Visualizing high-traffic areas and customer movement patterns for optimized store layouts.
     - image: ctm/heatmap-img.png   
 alt: image-alt
-project-date: February 2023
+project-date: February 2024
 client: TIA 
 category: Artificial Vision Automation and Reporting
 description:

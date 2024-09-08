@@ -109,6 +109,12 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+publication .pub-text .pub {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
