@@ -7,7 +7,7 @@ date: 2024-11-01
 img_post: cv/ocr.png
 img: 
     - image: cv/image.jpg
-      description: Process of personalized detection of price tag labels.
+      description: (left) output of the pipeline, (right) C.V. to extract information
 alt: image-alt
 project-date: Nov 2024
 client: Particular 
